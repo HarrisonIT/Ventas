@@ -1,0 +1,82 @@
+input {
+    padding: 8px 30px;
+    margin: 5px;
+    flex:auto;       
+    border: px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    padding: 5px;
+    margin: 5px;
+}
+.titulo {
+    text-align: center;
+    margin: 15px;
+    font-size: 15pt;
+
+}
+.fuentetamano {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.modulos {
+    border: 3px solid black;
+    margin: 5px;
+    background-color: #0A283F;
+    color: white;
+    font-weight: bolder;
+    width: 50%;
+}
+
+.seccionguia {
+    border: 3px solid #0A283F;
+    margin: 5px; 
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.datospersonalesproducto {
+    width:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.datosvalor {
+    width:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.datosfecha {
+    width: auto;
+    display: flex;
+    justify-content:space-around;
+}
+
+.botonGenerico {
+    display: flex;
+    border: 0px;
+    margin: 10px 10px;
+    border-radius: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    font-weight: bolder;
+}
+.botonGenerico:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.seccionboton {
+    display: flex;
+    justify-content: flex-end;
+}

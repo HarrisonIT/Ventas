@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Modulo de Ventas</title>
+
+</head>
+<body>
+    <main >
+        <div class="contenedor fuentetamano" >
+            <section class="modulos">
+                panel izquierdo
+            </section>
+
+            <section class="modulos">  
+                
+                <div class="titulo"> 
+                    REGISTRO DE VENTA
+                </div>
+
+                <section>
+                    <div class="seccionguia datosfecha">
+                    <form action="">
+                        <label for="fecha"> Fecha </label>
+                        <input type="date" id="fecha">
+                        <label for="factura"> Factura </label>
+                        <input type="number" id="factura">
+                    </div>
+                    
+                    <div class= "seccionguia datospersonalesproducto">
+                        <label for="cliente"> Cliente </label>
+                        <input type="text" id="cliente">
+                        <label for="documento"> Documento </label>
+                        <input type="number" id="documento">
+                        <label for="vendedor"> Vendedor </label>
+                        <input type="text" id="vendedor">
+                        <label for="idproducto"> ID Producto </label>
+                        <input type="number" id="idproducto">
+                        <label for="descripcion"> Descripcion </label>
+                        <input type="text" id="descripcion">
+                        
+                    </div>
+
+                    <div class="seccionguia datosvalor">
+                        <label for="cantidad"> Cantidad </label>
+                        <input type="number" id="cantidad">
+                        <label for="valorunidad"> Valor Unitario </label>
+                        <input type="number" id="valorunidad">
+                        <label for="subtotal"> Sub - Total </label>
+                        <input type="number" id="subtotal">
+                    </div>
+                    
+                    <div class="seccionguia seccionboton">
+                        <button class="botonGenerico"> Agregar Producto </button>
+                    </div>
+                    
+                    <div class="seccionguia seccionboton">
+                        <button class="botonGenerico"> Cancelar compra </button>
+                        <button class="botonGenerico"> Finalizar compra </button>
+                    </div>
+                    </form>
+
+                </section>
+            </section>
+
+        </div>
+
+    </main>
+</body>
+</html>
